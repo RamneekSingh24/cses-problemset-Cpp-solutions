@@ -1,2 +1,2 @@
-# cses-problemset-C++-solutions
+# cses-problemset-Cpp-solutions
 https://cses.fi/problemset/
