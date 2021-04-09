@@ -13,8 +13,11 @@
 using namespace std;
 
 // Solution gives TLE with ordered_map, Max. Execution time > 1 sec
-// Solution passed with unordered_map, Max. Execution time 0.79
+// Solution passed with unordered_map, Max. Execution time 0.79 sec
 // On previous problems the opposite was observed.
+
+// A similar solution using GNU pbds passed in 0.57 sec
+// As it does not require co-ordinate compression.
 
 #define fast_io                       \
     ios_base::sync_with_stdio(false); \
