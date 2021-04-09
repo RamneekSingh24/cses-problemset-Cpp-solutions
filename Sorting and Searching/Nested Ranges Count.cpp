@@ -119,7 +119,7 @@ int main() {
         if(t1 > t2) {
             // End Event
             // t2 = start_time
-            ans1[idx] += total_closed - sum(t2 -1); // Total Closed Events with start time >= t2
+            ans1[idx] += total_closed - getRank(t2 -1); // Total Closed Events with start time >= t2
             insert(t2);
             ++total_closed;
         }
