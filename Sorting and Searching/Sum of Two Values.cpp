@@ -11,12 +11,7 @@ using namespace std;
 
 typedef pair<int, int> pii;
 
-class CustomPairComp{
-public:
-    bool operator() (const pii &p1, const pii &p2) {
-        return p1.second <= p2.second;
-    }
-};
+
 int main() {
 
 #ifdef MYPC
