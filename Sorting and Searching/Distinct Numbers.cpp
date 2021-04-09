@@ -9,7 +9,7 @@
 
 using namespace std;
 
-// The test-set contains adverserials test cases for cpp-default hashing function
+// The test-set contains adverserial test cases for cpp-default hashing function
 
 
 int main() {
